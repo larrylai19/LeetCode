@@ -4,7 +4,7 @@ class Solution:
         numbers = [str(i) for i in range(1, 11)]
         
         factorial = [1] * n
-        for i in range(1, len(factorial)):
+        for i in range(2, len(factorial)):
             factorial[i] = i * factorial[i - 1]
         
         # for index
