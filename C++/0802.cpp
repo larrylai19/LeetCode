@@ -11,7 +11,7 @@ private:
 
         bool isSafe = true;
         traveled.insert(idx);
-        
+
         if (!graph[idx].empty()) {
             for (const auto& nextNode : graph[idx]) {
                 // if there have any loops,
